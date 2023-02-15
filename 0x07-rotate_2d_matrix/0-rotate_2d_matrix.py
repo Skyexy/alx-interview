@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 
- """ rotatae a 2d matrix 90 degrees clockwise."""
+ """
+ rotatae a 2d matrix 90 degrees clockwise
+ """
 
 def rotate_2d_matrix(matrix):
-    """ rotatae a 2d matrix 90 degrees clockwise."""
+    """
+    rotatae a 2d matrix 90 degrees clockwise
+    """
     lent = len(matrix)
     sem = [[matrix[j][i] for i in range(lent)] for j in range(lent)]
     height = lent - 1
