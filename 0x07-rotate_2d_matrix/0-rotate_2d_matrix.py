@@ -7,7 +7,7 @@ def rotate_2d_matrix(matrix):
     height = lent - 1
     for i in range(lent):
         width = 0
-        for x in range(lent)):
-            matrix[x][i] = sem[height][width]
-            width = width + 1
-        height = height - 1
+        for x in range(lent):
+            matrix[x][i]=sem[height][width]
+            width=width + 1
+        height=height - 1
