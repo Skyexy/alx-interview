@@ -1,0 +1,34 @@
+#!/usr/bin/python3
+
+""" Change comes from within"""
+def find(cons, num):
+    """
+    the biggest coin subtractable from num
+    """
+    numbers = []
+    big = 0
+    for i in cons:
+        if i <= num:
+            numers.append(i)
+    if len(numers) is None:
+        return 0
+    for i in numers:
+        if i > big:
+            big = i
+    return big
+
+
+def makeChange(coins, total):
+    """
+    determine the fewest number of coins needed to meet a given amount
+    """
+    times = 0
+    if total <= 0:
+        return 0
+    while total > 0:
+        num = find(coins, total)
+        times = times + 1
+        if num == 0:
+            return -1
+        total = total - num
+    return times
