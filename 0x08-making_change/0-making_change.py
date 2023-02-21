@@ -9,10 +9,10 @@ def find(cons, num):
     big = 0
     for i in cons:
         if i <= num:
-            numers.append(i)
-    if len(numers) is None:
+            numbers.append(i)
+    if len(numebrs) is None:
         return 0
-    for i in numers:
+    for i in numebrs:
         if i > big:
             big = i
     return big
