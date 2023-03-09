@@ -65,7 +65,7 @@ def isWinner(x, nums) :
   Ben = 0
   for i in range(0,x):
     n_list = createlist(nums[i])
-    for i in range(0, 100):
+    for i in range(0, nums[i]):
       if chepriinlist(n_list):
         prgreassion += 1
         for con_int in n_list:
